@@ -1,14 +1,92 @@
 /* Denna Heads-Up-Display är det fritt fram att styla om och placera på andra ställen! */
 
 #hud {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: #333;
-      color: white;
-      padding: 10px;
-      display: flex;
-      justify-content: space-between;
-      font-weight: bold;
-    }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+h1 {
+  color: red;
+}
+
+.lorem {
+  background-color: rgb(206, 108, 90);
+}
+
+#treasure4:hover {
+  color: red;
+}
+.shell {
+  background-color: rgb(230, 191, 133);
+  padding: 10px;
+  border-radius: 10px;
+}
+.treasure:hover {
+  transform: scale(1.1);
+}
+#treasure3:hover {
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(40, 10px);
+  grid-template-rows: repeat(40, 10px);
+}
+#rum {
+  background-image: url("images/rum.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#shell-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 40vh;
+  background-image: url("images/sand.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
+#treasure7:hover {
+  color: aquamarine;
+}
+#treasure8 {
+  position: absolute;
+  top: 1420px;
+  left: 550px;
+  width: 10px;
+  height: 100px;
+}
+#treasure8:hover {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+#dialog {
+  border: 5px solid black;
+}
+
+#opendia {
+  height: 400px;
+  width: 200px;
+}
+#long {
+  height: 50000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
